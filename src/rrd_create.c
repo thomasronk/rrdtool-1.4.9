@@ -163,7 +163,7 @@ char* map_rrd_file(char *input_file)
 	//printf("Mapping text file\n");
 	//printf("INput file is %s",input_file);
 
-	fr = fopen("rrd_mapping.txt", "r");
+	fr = fopen("/usr/local/src/rrd_mapping.txt", "r");
 	if(!fr)
 	{
 		perror("Error opening file\n");
